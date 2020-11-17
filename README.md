@@ -20,7 +20,10 @@ NB: `kubectl` is only needed for interacting with the cluster, not for the actua
 If everything went find, you can check the status of the worker nodes with:
 ```
 kubectl get nodes
-NAME                     STATUS   ROLES    AGE    VERSION                                                                        k8s-kind-control-plane   Ready    master   148m   v1.19.1                                                                        k8s-kind-worker          Ready    <none>   147m   v1.19.1                                                                        k8s-kind-worker2         Ready    <none>   147m   v1.19.1
+NAME                     STATUS   ROLES    AGE    VERSION
+k8s-kind-control-plane   Ready    master   148m   v1.19.1
+k8s-kind-worker          Ready    <none>   147m   v1.19.1
+k8s-kind-worker2         Ready    <none>   147m   v1.19.1
 ```
 
 ## Thanks
